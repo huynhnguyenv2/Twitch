@@ -72,6 +72,22 @@ body {
 .search:focus {
     width: 400px;
 }
+.search {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #bfbfbf;
+  border-radius: 4px;
+  font-size: 14px;
+  background-image: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-search-strong-128.png");
+  background-size: 30px 30px;
+  background-position: 10px;
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 40px;
+  transition: width 0.4s ease-in-out;
+}
+.search:focus {
+    width: 400px;
+}
 .info{
   border-top: #ffffcc solid 1px;
   margin-top: 20px;
